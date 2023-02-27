@@ -1,0 +1,34 @@
+{
+  "contacts": [
+    {
+      "name": "arthur ",
+      "email": "morgan@gmail.com",
+      "phone": "111122220",
+      "id": 1
+    },
+    {
+      "name": "carl",
+      "email": "gallagher@gmail.com",
+      "phone": "999666999",
+      "id": 2
+    },
+    {
+      "name": "ryder",
+      "email": "lens@gmail.com",
+      "phone": "888101911",
+      "id": 3
+    },
+    {
+      "name": "billy",
+      "email": "betson@gmail.com",
+      "phone": "322322322",
+      "id": 4
+    },
+    {
+      "name": "vezunchick",
+      "email": "karypov@gmail.com",
+      "phone": "701773841",
+      "id": 5
+    }
+  ]
+}

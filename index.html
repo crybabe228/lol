@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Contact Book</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" /><br /><br />
+      <button type="submit">Add Contact</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>johndoe@example.com</td>
+          <td>555-1234</td>
+          <td>
+            <button>Delete</button>
+            <button>Edit</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="edit-modal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Edit Contact</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="modal-name" name="name" /><br /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="modal-email" name="email" /><br /><br />
+          <label for="phone">Phone:</label>
+          <input type="tel" id="modal-phone" name="phone" /><br /><br />
+          <button type="submit" class="modal-save">Save Changes</button>
+        </form>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
